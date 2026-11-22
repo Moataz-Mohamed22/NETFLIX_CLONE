@@ -1,59 +1,102 @@
-# NETFLIXCLONE
+# 🎬 Netflix Clone – Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.1.7.
+A responsive Netflix-inspired web application built with **Angular**. This project aims to recreate Netflix's user interface while practicing modern Angular development and responsive web design.
 
-## Development server
+## ✨ Features
 
-To start a local development server, run:
+- **Netflix Login Page** – A Netflix-inspired sign-in interface.
+- **Responsive Design** – Optimized for desktop, tablet, and mobile screens.
+- **Password Visibility Toggle** – Show or hide the password using an eye icon.
+- **Custom UI Styling** – Dark theme, background image, gradient overlay, and styled form inputs.
+- **Interactive Form** – Angular-powered form inputs using two-way data binding.
 
-```bash
-ng serve
+## 🛠️ Technologies Used
+
+- Angular
+- TypeScript
+- HTML5
+- CSS3
+- Bootstrap
+- Font Awesome
+
+## 📸 Screenshots
+
+<!-- Add your project screenshots here -->
+
+| Login Page |
+|:---:|
+| Add your login page screenshot here |
+
+## 🚀 Getting Started
+
+Follow these steps to run the project locally.
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/)
+- [Angular CLI](https://angular.dev/tools/cli)
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd YOUR_REPOSITORY
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   ng serve
+   ```
+
+5. Open your browser and navigate to:
+
+   ```text
+   http://localhost:4200/
+   ```
+
+## 📁 Project Structure
+
+```text
+src/
+├── app/
+│   └── ...
+├── assets/
+└── styles.css
+
+public/
+└── NetflixLogoSvg.png
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## 🎯 Project Goals
 
-## Code scaffolding
+- Practice Angular standalone components.
+- Improve responsive UI development skills.
+- Work with Angular data binding and event handling.
+- Build a clean and reusable frontend structure.
+- Recreate a real-world application interface.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 👨‍💻 Author
 
-```bash
-ng generate component component-name
-```
+**Your Name**
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+- GitHub: [Your GitHub Profile](https://github.com/YOUR_USERNAME)
 
-```bash
-ng generate --help
-```
+---
 
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+**Disclaimer:** This project is created for educational and practice purposes only. Netflix is a trademark of Netflix, Inc. This project is not affiliated with or endorsed by Netflix.
